@@ -24,7 +24,7 @@ int main()
     char a[]={"hola mundo"};
     char b[]={"mun"};
     char *ptr=&a[0];
-    char *ptr1=&a[0];
+    char *ptr1=&b[0];
     int *s,*l;
     int tam1,tam2,fin;
     fin=0;
