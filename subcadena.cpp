@@ -5,12 +5,12 @@ using namespace std;
 int comp(char *x,char *y,int *a,int *b)
 {
     int c=0,d=0,e=0;
-    while (c<=a)
+    while (c<=*a)
     {
         if (x[c]==y[d])
         {
             d+=1;
-            if (d==b)
+            if (d==*b)
                 return 1;
 
         }
